@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    font-size: 18px;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5em;
+}
+#menu img{
+    margin: 0 20px 20px 0;
+    padding: 1px;
+    width: 10%;
+}
+
+#menu button{
+    color: hsl(322, 100%, 9%);
+    border-radius: 25px;
+    padding: 0.5rem 2.3rem;
+    border: 0;
+    cursor:pointer;
+}
+
+#menu a{
+    color: hsl(322, 100%, 9%);
+
+}
+
+
+.mockups{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px 20px;
+}
+
+.mockups .first{
+    margin: 0 0 30px 0;
+}
+
+.first .huddle .par{
+    margin: 0 0 70px 0;
+}
+
+.mockups .second img{
+    width: 90%;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+
+}
+
+
+.mockups button{
+ background-color: hsl(322, 100%, 66%);
+ padding: 10px;
+ margin: 25px;
+ border: 3px;
+ border-radius: 20px;
+
+}
+
+.background{
+    background-image: url(bg-hero-desktop.svg);
+   background-color:hsl(193, 100%, 96%);
+    width: 100%;
+    height: 90vh;
+}
+
+#main2, #main3, #main4{
+    display: flex;
+    align-items: center;
+    border: thin solid #ccc;
+    border-radius: 1.5rem;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+    margin-left: 90px;
+    height: 10%;
+    width: 80%;
+
+}
+
+#main2 h2, #main3 h2, #main4 h2, .huddle{
+    color:hsl(192, 100%, 9%);
+    font-family:'Poppins'; 
+    font-weight: 600;
+}
+
+#main2{
+    margin-top: 30px;
+}
+
+#main2 .grow-together{
+      padding: 29px;
+      margin: 50px;
+    
+}
+
+
+#main2 img{
+    width: 100%;
+    padding: 30px;
+}
+
+
+#main3 img{
+    width: 100%;
+    padding: 50px;
+    margin: 30px;
+}
+
+#main3 .flowing-convos{
+    padding: 29px;
+    margin: 50px;
+  
+}
+
+
+
+#main4 img{
+    width: 100%;
+    padding: 50px;
+    margin: 30px;
+}
+
+#main4 .your-users{
+    padding: 29px;
+    margin: 50px;
+  
+}
+
+#CTA .CTA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: thin solid #ccc;
+    width: 700px;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius:20px;
+    position: relative;
+    top:40px;
+    bottom: 20px;
+    background-color: white;
+
+}
+
+#CTA button{
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px;
+    margin: 25px;
+    border: 3px;
+    border-radius: 20px;
+}
+
+
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+
+}
+
+.info ul li{
+    margin: 35px 10px 20px 30px;
+    padding:  50px auto;
+    text-align: left;
+    list-style: none;
+}
+
+.info #logo{
+    filter: brightness(0) invert(1);
+    width: 100px;
+}
+
+.Us ul li{
+    margin:50px 0 0 50px;
+    padding: auto;
+    list-style: none;
+  
+}
+
+.contact ul li{
+    margin: 50px 0  0 50px;
+    list-style: none;
+    padding: 0;
+}
+
+
+.social{
+    display: flex;
+    margin:  100px;
+    padding:  20px;
+    color: white; 
+}
+
+
+@media(max-width:375px){
+    #menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 5em;
+    }
+    #menu img{
+        margin: 0 20px 20px 0;
+        padding: 1px;
+        width: 5%;
+    }
+    
+    #menu button{
+        color: hsl(322, 100%, 9%);
+        border-radius: 25px;
+        padding: 0.5rem 2.3rem;
+        border: 0;
+        cursor:pointer;
+    }
+}
