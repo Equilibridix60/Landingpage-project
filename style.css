@@ -170,17 +170,20 @@ body{
 
 footer{
     display: flex;
-    padding: 20px;
+    padding: 5px;
     background-color: hsl(192, 100%, 9%);
     color: white;
+    height: 100vh;
+    font-size: 13px;
 
 }
 
 .info ul li{
-    margin: 35px 10px 20px 30px;
-    padding:  50px auto;
-    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 60px;
     list-style: none;
+    padding: 15px;
 }
 
 .info #logo{
@@ -189,24 +192,37 @@ footer{
 }
 
 .Us ul li{
-    margin:50px 0 0 50px;
-    padding: auto;
+    position: relative;
+    top: 150px;
+    left: 130px;
+    padding: 10px;
     list-style: none;
   
 }
 
 .contact ul li{
-    margin: 50px 0  0 50px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    padding: 10px;
     list-style: none;
-    padding: 0;
 }
 
 
 .social{
     display: flex;
-    margin:  100px;
-    padding:  20px;
+    position: relative;
+    top: 150px;
+    left: 250px;
     color: white; 
+    padding: 10px;
+}
+
+#copyright{
+    position: relative;
+    top: 350px;
+    left: 170px;
+    font-size: 8px;
 }
 
 
